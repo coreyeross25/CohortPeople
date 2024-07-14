@@ -100,7 +100,7 @@ public class Main {
         newPersonBryan.setFavoriteColor("Brown");
         newPersonBryan.setBirthMonth("May");
         newPersonBryan.setHavePets(false);
-        students.add(newPersonJonathan);
+        students.add(newPersonBryan);
 
 
         Person newPersonIan = new Person("Ian", "Gordon");
@@ -108,14 +108,14 @@ public class Main {
         newPersonIan.setFavoriteColor("Green");
         newPersonIan.setBirthMonth("April");
         newPersonIan.setHavePets(true);
-        students.add(newPersonJonathan);
+        students.add(newPersonIan);
 
         Person newPersonDiptika = new Person("Diptika", "Devi");
         newPersonDiptika.setFavoriteBeverage("Tea");
         newPersonDiptika.setFavoriteColor("Orange");
         newPersonDiptika.setBirthMonth("June");
         newPersonDiptika.setHavePets(false);
-        students.add(newPersonJonathan);
+        students.add(newPersonDiptika);
 
         Person newPersonQian = new Person("Qian", "Wang");
         newPersonQian.setFavoriteBeverage("Tea");
@@ -130,6 +130,13 @@ public class Main {
         newPersonTim.setBirthMonth("September");
         newPersonTim.setHavePets(false);
         students.add(newPersonTim);
+
+        Person newPersonTimTwo = new Person("Tim", "Nguyen");
+        newPersonTimTwo.setFavoriteBeverage("Bubble Tea");
+        newPersonTimTwo.setFavoriteColor("White");
+        newPersonTimTwo.setBirthMonth("November");
+        newPersonTimTwo.setHavePets(true);
+        students.add(newPersonTimTwo);
 
         Person newPersonPeter = new Person("Peter", "Beever");
         newPersonPeter.setFavoriteBeverage("Latte");
